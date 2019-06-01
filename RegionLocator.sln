@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegionLocator.Api", "src\RegionLocator.Api\RegionLocator.Api.csproj", "{62401FAA-ECE0-4463-BA94-AF607930AB5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E03FAD9-D910-4CE4-8625-D7F72536D326}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CF268C97-5FB9-4EB4-B05A-311C78D4AD38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegionLocator.Core", "..\src\RegionLocator\RegionLocator.Core\RegionLocator.Core.csproj", "{AA522A46-F063-43BB-A15E-F7E46140959E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62401FAA-ECE0-4463-BA94-AF607930AB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62401FAA-ECE0-4463-BA94-AF607930AB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62401FAA-ECE0-4463-BA94-AF607930AB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62401FAA-ECE0-4463-BA94-AF607930AB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA522A46-F063-43BB-A15E-F7E46140959E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA522A46-F063-43BB-A15E-F7E46140959E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA522A46-F063-43BB-A15E-F7E46140959E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA522A46-F063-43BB-A15E-F7E46140959E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62401FAA-ECE0-4463-BA94-AF607930AB5E} = {0E03FAD9-D910-4CE4-8625-D7F72536D326}
+		{AA522A46-F063-43BB-A15E-F7E46140959E} = {0E03FAD9-D910-4CE4-8625-D7F72536D326}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+﻿{
+  "shapefilePath": "Resources/ne_10m_admin_0_countries.shp",
+  "shapefileProperties": [
+    "ADMIN",
+    "POP_EST"
+  ]
+}
