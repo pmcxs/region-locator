@@ -1,4 +1,4 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
 using System.Linq;
 using GeoAPI.Geometries;
 using Microsoft.Extensions.Configuration;
@@ -91,19 +91,19 @@ namespace RegionLocator.API
             if (matchFeature == null)
                 return null;
 
-            var dma = new Region
+            var region = new Region
             {
-                Properties = new System.Collections.Generic.Dictionary<string, object>()
+                Properties = new Dictionary<string, object>()
             };
 
 
             foreach (var attributeName in matchFeature.Attributes.GetNames())
             {
-                dma.Properties.Add(attributeName, matchFeature.Attributes[attributeName]);
+                region.Properties.Add(attributeName, matchFeature.Attributes[attributeName]);
 
             }
 
-            return dma;
+            return region;
 
         }
     }

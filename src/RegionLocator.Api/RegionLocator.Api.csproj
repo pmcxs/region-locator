@@ -31,6 +31,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\RegionLocator\RegionLocator.Core\RegionLocator.Core.csproj" />
+    <ProjectReference Include="..\RegionLocator.Core\RegionLocator.Core.csproj" />
   </ItemGroup>
 </Project>
