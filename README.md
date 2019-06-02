@@ -7,7 +7,7 @@ The dataset used is configurable, hence this service could be used in various us
 
 ## Installation
 
-After cloning the repo, go to source folder and type :
+After cloning the repo, go to top folder and type :
 
     dotnet restore
 
@@ -45,7 +45,7 @@ Should return (besides the 404 status code):
 
 ## Configuration
 
-Included with the source code is a dataset that contains the polygons of all countries in the world, obtained from https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
+Included with the source code is a sample dataset that contains the polygons of all countries in the world, obtained from https://www.naturalearthdata.com/downloads/10m-cultural-vectors/
 
 The default configuration matches this dataset, configured at `datasource.json`
 
@@ -57,12 +57,12 @@ The default configuration matches this dataset, configured at `datasource.json`
         ]
     }
 
+Please note that the defaults should just work, as the included Shapefile has a rule for it to be automatically copied to the bin directory.
+
 | field | description |
 |-------|-------------|
 | shapefilePath  |  Describes the path (either absolute or relative) to the Shapefile that will contain the various shapes to match  |
 | shapefileProperties  |  Properties (from the original Shapefile) that will be returned on the matching results of the API  |
-
-Please note that the defaults should just work, as the included Shapefile has a rule for it to be automatically copied to the bin directory.
 
 ## TODO
 
