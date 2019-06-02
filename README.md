@@ -67,7 +67,10 @@ Please note that the defaults should just work, as the included Shapefile has a 
 ## TODO
 
 - Supporting multiple data-sources simultaneously
-- Support some sort of indexing (Quadtrees, etc) and try to improve performance (although it isn't that bad)
+- Improve performance
+    - Support some sort of indexing (Quadtrees, etc)
+    - Optimization of the polygons when initially loading them
+
 - Create tests
 - Organize the projects better
 
