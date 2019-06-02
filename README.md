@@ -64,6 +64,13 @@ The default configuration matches this dataset, configured at `datasource.json`
 
 Please note that the defaults should just work, as the included Shapefile has a rule for it to be automatically copied to the bin directory.
 
+## TODO
+
+- Supporting multiple data-sources simultaneously
+- Support some sort of indexing (Quadtrees, etc) and try to improve performance (although it isn't that bad)
+- Create tests
+- Organize the projects better
+
 ## Contributing
 
 1. Fork it!
